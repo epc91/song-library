@@ -16,6 +16,9 @@
 </head>
 <body>
     <div class="container">
+        <div class="head-title">
+            <h1>Your music library</h1>
+        </div>
 
         <div class="song-list">
             <!-- Song #1 -->
@@ -23,20 +26,22 @@
                 <div class="title">
                     Noir Et Blanc Vie
                 </div>
-                <div class="play">
+                <div class="play" id="Noir _Et _Blanc _Vie">
                     <span class="material-icons">
                         play_circle
                     </span>
                 </div>
                 <div class="stop">
                     <span class="material-icons">
-                        cancel
+                        stop_circle
                     </span>
                 </div>
                 <div class="download">
-                    <span class="material-icons">
-                        file_download
-                    </span>
+                    <a href="./songs/Noir _Et _Blanc _Vie.mp3" download="">
+                        <span class="material-icons">
+                            file_download
+                        </span>
+                    </a>
                 </div>
             </div>
 
@@ -45,20 +50,22 @@
                 <div class="title">
                     Density & Time
                 </div>
-                <div class="play">
+                <div class="play" id="Density _& _Time">
                     <span class="material-icons">
                         play_circle
                     </span>
                 </div>
                 <div class="stop">
                     <span class="material-icons">
-                        cancel
+                        stop_circle
                     </span>
                 </div>
                 <div class="download">
-                    <span class="material-icons">
-                        file_download
-                    </span>
+                    <a href="./songs/Density _& _Time.mp3">
+                        <span class="material-icons">
+                            file_download
+                        </span>
+                    </a>
                 </div>
             </div>
 
@@ -67,25 +74,27 @@
                 <div class="title">
                     Jeremy Black
                 </div>
-                <div class="play">
+                <div class="play" id="Jeremy_Black">
                     <span class="material-icons">
                         play_circle
                     </span>
                 </div>
                 <div class="stop">
                     <span class="material-icons">
-                        cancel
+                        stop_circle
                     </span>
                 </div>
                 <div class="download">
-                    <span class="material-icons">
-                        file_download
-                    </span>
+                    <a href="./songs/Jeremy_Black.mp3" download>
+                        <span class="material-icons">
+                            file_download
+                        </span>
+                    </a>
                 </div>
             </div>
         </div>
-
-        <input type="range" max="1" min="0" step="0.1" class="volume">
     </div>
+    <!-- Javascript -->
+    <script src="./main.js"></script>
 </body>
 </html>

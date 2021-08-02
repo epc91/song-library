@@ -2,6 +2,14 @@ html {
     font-family: 'Passero One';
 }
 
+.head-title {
+    font-size: 2rem;
+    display: flex;
+    margin: 1rem auto;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .container {
     width: 70vw;
     height: 100vh;  
